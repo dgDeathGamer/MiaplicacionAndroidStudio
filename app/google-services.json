@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505919505447",
+    "project_id": "aplicaciondecelu",
+    "storage_bucket": "aplicaciondecelu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505919505447:android:75c6c5b49815d5dc7a3a02",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXYXObhDE-ggi57bhts96F2L1bq22-Lrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

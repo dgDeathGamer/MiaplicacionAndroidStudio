@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="278dp"
+
+        android:layout_height="0dp"
+        android:layout_marginTop="518dp"
+        android:layout_marginBottom="45dp"
+        android:text="Iniciar Sesión con:"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677"
+        tools:ignore="HardcodedText,TextSizeCheck,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/buttoniniciarsesion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/iniciar_sesion"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonregistrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck,VisualLintBounds,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonregistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="162dp"
+        android:text="@string/registrarse"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoniniciarsesion"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="9dp"
+        android:contentDescription="@string/Google"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:srcCompat="@drawable/goooglepng"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="108dp"
+        android:contentDescription="@string/facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/facebookpng"
+        tools:ignore="DuplicateSpeakableTextCheck,MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="96dp"
+        android:contentDescription="@string/Twitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/buttonregistrarse"
+        app:srcCompat="@drawable/twiiterrippng"
+        tools:ignore="ImageContrastCheck,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

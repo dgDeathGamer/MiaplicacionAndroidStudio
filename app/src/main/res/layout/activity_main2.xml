@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/inicioCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginBottom="123dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/pablo_gmail_com"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#A1887F"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/inicioContrasenia"
+        app:layout_constraintStart_toStartOf="@+id/inicioContrasenia"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="LabelFor,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/iniciar_sesion2"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/correo"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/inicioCorreo"
+        app:layout_constraintStart_toStartOf="@+id/inicioCorreo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/contraseniatext"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/inicioContrasenia"
+        app:layout_constraintStart_toStartOf="@+id/inicioContrasenia"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/inicioContrasenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="361dp"
+        android:layout_marginBottom="361dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/contrasenia"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        tools:ignore="LabelFor,MissingConstraints,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/buttoniniciarsesion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/iniciar_sesion3"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inicioContrasenia"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
